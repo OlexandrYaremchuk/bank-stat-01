@@ -1,0 +1,21 @@
+.nav_container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 20%;
+  height: calc(100vh - 50px * 2);
+  padding: 36px 28px;
+}
+.nav_btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  margin-bottom: 2vh;
+  /* color: rgba(0, 0, 0, 0.5); */
+}
+.nav_btn span {
+  margin-right: 10px;
+}
